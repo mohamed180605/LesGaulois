@@ -32,3 +32,4 @@ build/
 *.db
 *.class
 *.DS_Store
+/.metadata/
