@@ -18,4 +18,17 @@ public class Romain {
 		return "Le romain " + nom + " : ";
 		
 	}
+	
+	//// TP1 POO
+	public void recevoirCoup(int forceCoup) {
+		 force -=forceCoup ;
+		 if ( force > 0) {
+			 System.out.println( nom + " : Aie !");
+		}
+		 else {
+			 System.out.println(nom + "J'abondonne...");
+		 }
+	}
 }
+
+
